@@ -7,13 +7,13 @@ SemEval 2010 Task 8 has 19 classes for classifying relations (9 two-way, 1 null 
 
 The entire dataset has 8000 training examples and 2717 test examples.
 
-I test several conditions:
+I test several experimental conditions, showing iterative improvement:
 
 * Zero-shot
 
-    * Simply call the LLM with a description of the relation extraction task, and a query
+    * Simply call the LLM with a description of the relation extraction task and a query
 
-* K-shot with random chain-of-though (COT) examples:
+* K-shot with random chain-of-thought (COT) examples:
 
     * Ask the LLM to generate COT examples from the entire train dataset and save
 
